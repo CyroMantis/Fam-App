@@ -27,7 +27,7 @@ The shoulder-shaped membership function for each input variable in the assessmen
 
 After obtaining the membership function for each membership set, the next step is to convert it into Matrices A and B. Matrix A will contain the maximum membership degree values from each variable assessment set. Matrix B will contain the membership degree values of the total variable. 
 
-#Performing calculations for Auto Associative Fuzzy Hebbian FAM
+# Performing calculations for Auto Associative Fuzzy Hebbian FAM
 Using Correlation-Product Encoding, and conducting the composition relation using Max Product Composition.
 M = A^T B
 
