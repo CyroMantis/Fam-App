@@ -29,7 +29,8 @@ After obtaining the membership function for each membership set, the next step i
 
 Performing calculations for Auto Associative Fuzzy Hebbian FAM using Correlation-Product Encoding, and conducting the composition relation using Max Product Composition.
 M = A^T B
-![corelation product encoding](https://github.com/user-attachments/assets/43a8b52f-46ad-47a5-9b2e-2c822b900da6)
+![corelation product encoding](https://github.com/user-attachments/assets/8081fb5b-cccd-4abf-869b-705ff2eb7b36)
+
 
 
 
