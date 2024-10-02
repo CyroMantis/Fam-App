@@ -28,10 +28,33 @@ The shoulder-shaped membership function for each input variable in the assessmen
 After obtaining the membership function for each membership set, the next step is to convert it into Matrices A and B. Matrix A will contain the maximum membership degree values from each variable assessment set. Matrix B will contain the membership degree values of the total variable. 
 
 Performing calculations for Auto Associative Fuzzy Hebbian FAM using Correlation-Product Encoding, and conducting the composition relation using Max Product Composition.
+M = A^T B
+![corelation product encoding](https://github.com/user-attachments/assets/43a8b52f-46ad-47a5-9b2e-2c822b900da6)
+
+
 
 Based on the results obtained from the composition process, the results of B' have been obtained, and the next step is to find the maximum value from the results of the B' process.
 
+![Hasil Komposisi](https://github.com/user-attachments/assets/2253bcd2-91be-4772-89f7-b01986cb6ce9)
+
+b1 = max{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}
+= 0
+b2 = max{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}
+= 0
+b3 = max{0.0, 0.0, 0.0, 0.66, 0.11, 0.0, 0.66}
+= 0.66
+b4 = max{0.17, 0.0, 0.55, 0.17, 0.71, 0.31, 0.0}
+= 0.71
+b5 = max{0.33, 1.0, 0.14, 0.0, 0.0, 0.36, 0.0}
+= 1.0
+
 Performing Defuzzification using Weighted Average (WAG) to obtain a crisp and more accurate value.
+Weighted Average = ((75*0)+(75*0)+(65*0)+(100*0.53)+(45*0.47)  )/(0+0+0+0.53+0.47) = 74.15 
+
+No	Result	Assessment Level
+1	Unsatisfactory	0-45
+2	Satisfactory	46-79
+3	Very Satisfactory	80-100
 
 # Result
 Insert data to app:
