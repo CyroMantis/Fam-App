@@ -16,6 +16,7 @@ FAM Algorithm :
 Determining the membership function using the shoulder shape, which is the area located in the middle of a variable represented in the form of a triangle, not limited to using shoulder-shaped graphs, but can utilize other graph shapes according to the conditions of the specified variables.
 
 Shoulder Graph:
+
 ![gambar](https://github.com/user-attachments/assets/3cce7374-f1e8-48e3-bd2d-ab32aab5d89a)
 
 The shoulder-shaped membership function for each input variable in the assessment of services such as Learning, Administration, Infrastructure, Library, and Student Affairs to be studied is as follows:
