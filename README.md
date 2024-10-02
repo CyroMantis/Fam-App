@@ -24,3 +24,16 @@ The shoulder-shaped membership function for each input variable in the assessmen
 1. BR has a value of 1 if it is in the range of 0-30 and a value of 0 if it is at a value of 60.
 2. CK has a value of 0 if it is at a value of 30 and a value of 1 if it is at a value of 60. CK also has a value of 0 if it is at a value of 90.
 3. SB has a value of 0 if it is at a value of 60 and will have a value of 1 if it is in the range of 90-100.
+
+After obtaining the membership function for each membership set, the next step is to convert it into Matrices A and B. Matrix A will contain the maximum membership degree values from each variable assessment set. Matrix B will contain the membership degree values of the total variable. 
+
+Performing calculations for Auto Associative Fuzzy Hebbian FAM using Correlation-Product Encoding, and conducting the composition relation using Max Product Composition.
+
+# Result
+Insert data to app:
+![Hasil Core](https://github.com/user-attachments/assets/cc31f371-cf3e-4e2d-81dc-204f72af97f4)
+
+Process the data:
+![jur](https://github.com/user-attachments/assets/bfbb556d-22a2-4e4f-bf61-4e05b353b8dc)
+
+
