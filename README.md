@@ -11,3 +11,15 @@ FAM Algorithm :
 3. Once the value of MM is obtained, the value of BB can be found by performing the composition relation of AA and MM. We can also find the value of AA by performing the composition relation of BB and MM. The composition relation can be carried out using Max-Min Composition or Max-Product Composition.
 4. Suppose a FAM system contains mm different FAM groups, namely (A1,B1),(A2,B2),…,(Am,Bm)(A1​,B1​),(A2​,B2​),…,(Am​,Bm​). Using the Hebb learning rule, mm FAM matrices M1,M2,…,MmM1​,M2​,…,Mm​ will be obtained. The Fuzzy Hebbian used to encode the mm FAM matrices (M1,M2,…,Mm)(M1​,M2​,…,Mm​) is either correlation-minimum encoding or correlation-product encoding.
 5. Perform Defuzzification using Winner Take All or Weighted Average.
+
+# Forming a fuzzy set by determining categories, the universe of discourse, and the domain of input and output variables.
+Determining the membership function using the shoulder shape, which is the area located in the middle of a variable represented in the form of a triangle, not limited to using shoulder-shaped graphs, but can utilize other graph shapes according to the conditions of the specified variables.
+
+Shoulder Graph:
+![gambar](https://github.com/user-attachments/assets/3cce7374-f1e8-48e3-bd2d-ab32aab5d89a)
+
+The shoulder-shaped membership function for each input variable in the assessment of services such as Learning, Administration, Infrastructure, Library, and Student Affairs to be studied is as follows:
+
+1. BR has a value of 1 if it is in the range of 0-30 and a value of 0 if it is at a value of 60.
+2. CK has a value of 0 if it is at a value of 30 and a value of 1 if it is at a value of 60. CK also has a value of 0 if it is at a value of 90.
+3. SB has a value of 0 if it is at a value of 60 and will have a value of 1 if it is in the range of 90-100.
