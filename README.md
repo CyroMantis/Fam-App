@@ -29,6 +29,10 @@ After obtaining the membership function for each membership set, the next step i
 
 Performing calculations for Auto Associative Fuzzy Hebbian FAM using Correlation-Product Encoding, and conducting the composition relation using Max Product Composition.
 
+Based on the results obtained from the composition process, the results of B' have been obtained, and the next step is to find the maximum value from the results of the B' process.
+
+Performing Defuzzification using Weighted Average (WAG) to obtain a crisp and more accurate value.
+
 # Result
 Insert data to app:
 ![Hasil Core](https://github.com/user-attachments/assets/cc31f371-cf3e-4e2d-81dc-204f72af97f4)
